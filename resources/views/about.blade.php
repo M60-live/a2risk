@@ -40,13 +40,14 @@
                     <br />
                     <div class="row">
                         <div class="col-md-6">
-                            <h4>Our identity and Journey</h4>
+                            <h4>Our Identity and Journey</h4>
                             <p class="pt-2">
                                 We are a young, innovative enterprise that provides leading technical security edge solutions.
                             </p>
-                            <br>
-                            <h4>Values</h4>
-                            <ul>
+
+                            <h4 class="pt-4">Values</h4>
+
+                            <ul class="list-group pt-2">
                                 <li>Reliable</li>
                                 <li>dependable</li>
                                 <li>innovative</li>
@@ -61,27 +62,26 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <h4>Our Vision</h4>
+                            <h4 class="pt-4">Our Vision</h4>
                             <p class="pt-2">
                                 To uphold sustainable client-focused security needs through collaboration, transparency  and unique innovative technology.
                             </p>
-                            <br />
                         </div>
                         <div class="col-md-6">
-                            <h4>Our Mission</h4>
+                            <h4 class="pt-4">Our Mission</h4>
                             <p class="pt-2">
                                 Ensuring unique client security integrity and committed in long-term strategic stakeholder relationship.
                             </p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
-                            <h4>Target Market</h4>
+                        <div class="col-md-12">
+                            <h4 class="pt-4">Target Market</h4>
                             <p class="pt-2">
                                 A-Squared Risk Solutions intends compete and remain the trusted, go-to security system supplier across a wide-range of clients such as:
                             </p>
 
-                            <ul class="list-box">
+                            <ul class="list-group">
                                 <li>Warehousing,</li>
                                 <li>Mining Houses,</li>
                                 <li>Property developers,</li>

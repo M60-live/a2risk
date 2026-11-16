@@ -4874,3 +4874,9 @@ a:visited {
 .checkout-section .payment-options .option-block .radio-block .icon i {
   color: #888;
 }
+
+
+ul.list-group li {
+    list-style-type: circle;
+    margin-left: 15px;
+}

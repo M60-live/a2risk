@@ -36,7 +36,7 @@ class ContactController extends Controller
         }
 
         Mail::to($email_address)->send(new ContactForm($contact_name));
-//        Mail::to('info@a2risk.co.za')->send(new TeamMailer($form_type,$email_address,$contact_name,$contact_message));
+        Mail::to('info@a2risk.co.za')->send(new TeamMailer($form_type,$email_address,$contact_name,$contact_message));
         Mail::to('sipho@alphatobeta.co.za')->send(new TeamMailer($form_type, $email_address, $contact_name, $contact_message));
 
         return json_encode(array('status' => 'ok', 'content' => 'Message sent'));
