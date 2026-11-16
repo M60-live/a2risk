@@ -37,7 +37,7 @@
         <div class="top-header">
             <div class="container">
                 <div class="left-info">
-                    <p><i class="cameron-icon-email"></i><a href="mailto:support@example.com">info@a2risk.co.za</a></p>
+                    <p><i class="cameron-icon-email"></i><a href="mailto:info@a2risk.co.za">info@a2risk.co.za</a></p>
                 </div><!-- /.left-info -->
                 {{--<div class="right-info">
                     <ul class="info-block">

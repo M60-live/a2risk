@@ -21,11 +21,11 @@ class TeamMailer extends Mailable
     public $contact_name = '';
     public $contact_message = '';
 
-    public function __construct($form_type,$email_address,$contact_name=null,$contact_message=null)
+    public function __construct($form_type, $email_address, $contact_name = null, $contact_message = null)
     {
-        $this->form_type = $form_type;
-        $this->email_address = $email_address;
-        $this->contact_name = $contact_name;
+        $this->form_type       = $form_type;
+        $this->email_address   = $email_address;
+        $this->contact_name    = $contact_name;
         $this->contact_message = $contact_message;
     }
 
@@ -38,13 +38,11 @@ class TeamMailer extends Mailable
     {
         return $this->view('mailers.team_notification')
             ->subject('Website Notification')
-            ->with(
-                [
-                    'form_type'=>$this->form_type,
-                    'email_address'=>$this->email_address,
-                    'contact_name'=>$this->contact_name,
-                    'contact_message'=>$this->contact_message
-                ]
-            );
+            ->with([
+                'form_type'       => $this->form_type,
+                'email_address'   => $this->email_address,
+                'contact_name'    => $this->contact_name,
+                'contact_message' => $this->contact_message
+            ]);
     }
 }

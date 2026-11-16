@@ -12,10 +12,11 @@ class ContactController extends Controller
     public function sendMails(Request $request)
     {
         $formData = $request->all();
-        $form_type = null;
-        $contact_name = null;
-        $email_address = null;
+        $form_type       = null;
+        $contact_name    = null;
+        $email_address   = null;
         $contact_message = null;
+
         foreach($formData['form_data'] as $input)
         {
             switch ($input['name']){
@@ -34,10 +35,10 @@ class ContactController extends Controller
             }
         }
 
-        Mail::to($email_address)->send(new ContactForm());
-        Mail::to('info@a2risk.co.za')->send(new TeamMailer($form_type,$email_address,$contact_name,$contact_message));
-        Mail::to('sipho@alphatobeta.co.za')->send(new TeamMailer($form_type,$email_address,$contact_name,$contact_message));
+        Mail::to($email_address)->send(new ContactForm($contact_name));
+//        Mail::to('info@a2risk.co.za')->send(new TeamMailer($form_type,$email_address,$contact_name,$contact_message));
+        Mail::to('sipho@alphatobeta.co.za')->send(new TeamMailer($form_type, $email_address, $contact_name, $contact_message));
 
-        return json_encode(array('status'=>'ok','content'=>'Message sent'));
+        return json_encode(array('status' => 'ok', 'content' => 'Message sent'));
     }
 }

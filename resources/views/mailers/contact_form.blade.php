@@ -8,17 +8,12 @@
     <table cellpadding="0" cellspacing="7" width="600">
         <tr>
             <td>
-                <h3>Dear client</h3>
+                <h3>Hi {{ $contact_name }}</h3>
             </td>
         </tr>
         <tr style="padding-top: 20px;">
             <td>
-
-                {{--@if($form_type=='form')--}}
-                    <p>Thanks for contacting us. We will get in touch to find out more on how you'd like us to assist you make life more secure.</p>
-                {{--@else
-                    <p>Thanks for contacting us. <br>We've received your request for a quote.</p>
-                @endif--}}
+                <p>Thanks for contacting us.<br> We will get in touch with you shortly to find out how we can help you get more secured.</p>
             </td>
         </tr>
         <tr style="padding-top: 20px;">
@@ -28,7 +23,7 @@
         </tr>
         <tr style="padding-top: 20px;">
             <td>
-                <img src="http://a2risk.alphatobeta.co.za/images/logo-long2.png" style="width: 100%; height: auto;" />
+                <img src="https://a2risk.co.za/images/logo-long2.png" style="width: 180px; height: auto;" />
             </td>
         </tr>
     </table>

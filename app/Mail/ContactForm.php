@@ -11,14 +11,16 @@ class ContactForm extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $contact_name;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($contact_name)
     {
-        //
+        $this->contact_name = $contact_name;
     }
 
     /**
@@ -28,6 +30,8 @@ class ContactForm extends Mailable
      */
     public function build()
     {
-        return $this->view('mailers.contact_form')->subject('A2Risk Solutions Auto Respond');
+        return $this->view('mailers.contact_form')->subject('A2Risk Solutions Auto Respond')->with([
+            'contact_name' => $this->contact_name,
+        ]);
     }
 }

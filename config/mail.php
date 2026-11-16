@@ -84,7 +84,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'info@a2risk.co.za'),
+        'address' => env('MAIL_FROM_ADDRESS', 'no-reply@a2risk.co.za'),
         'name' => env('MAIL_FROM_NAME', 'A2Risk Solutions'),
     ],
 
