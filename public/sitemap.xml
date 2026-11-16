@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://a2risk.co.za/</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://a2risk.co.za/about</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://a2risk.co.za/services</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://a2risk.co.za/cctv</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://a2risk.co.za/access_control</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://a2risk.co.za/fire_detection</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://a2risk.co.za/bms</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://a2risk.co.za/csta</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://a2risk.co.za/contact</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://a2risk.co.za/physical_intrusion</loc>
+       <lastmod>2026-11-16T20:36:00+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+</urlset>
